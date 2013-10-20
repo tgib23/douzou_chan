@@ -6,6 +6,7 @@ gem 'rails', '4.0.0'
 gem 'bootstrap-sass', '2.3.2.1'
 gem 'omniauth'
 gem 'omniauth-facebook', '1.4.0'
+gem 'paperclip'
 
 gem 'activerecord-session_store'
 
