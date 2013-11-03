@@ -1,5 +1,7 @@
 DouzouApp::Application.routes.draw do
+  get "records/new"
   resources :users
+  resources :records
   root  'static_pages#home'
 
   match '/signup', to: 'users#new',             via: 'get'
