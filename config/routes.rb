@@ -1,5 +1,6 @@
 DouzouApp::Application.routes.draw do
   get "records/new"
+  get "records/get_geo"
   resources :users
   resources :records
   root  'static_pages#home'
